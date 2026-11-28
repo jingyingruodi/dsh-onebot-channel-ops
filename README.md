@@ -55,7 +55,7 @@ a53692f 时期的主要能力（快照里有完整说明）：
 
 ```bash
 npm pack
-dsh plugin --profile web add ./dsh-onebot-channel-0.21.20.tgz
+dsh plugin --profile web add ./dsh-onebot-channel-0.21.21.tgz
 ```
 
 DSH 要求：
