@@ -40,6 +40,7 @@ a53692f 时期的主要能力（快照里有完整说明）：
 - 定时接收模式：周几 + `HH:MM`，支持 set / restore、记录变更前状态、停机补恢复；
 - 设置页「QQ 桥接」：绑定、读者、定时、审查隔离、节奏与高级配置；
 - `qq_send`、`qq_read`、`qq_schedule`、折叠转发、表情、戳一戳等工具。
+- 当前群消息引用其他消息时，会读取引用预览；找不到时明确提示“可能是 QQ 未登录/OneBot 断线期间的消息”。
 
 ## 前置条件
 
@@ -54,7 +55,7 @@ a53692f 时期的主要能力（快照里有完整说明）：
 
 ```bash
 npm pack
-dsh plugin --profile web add ./dsh-onebot-channel-0.21.19.tgz
+dsh plugin --profile web add ./dsh-onebot-channel-0.21.20.tgz
 ```
 
 DSH 要求：
